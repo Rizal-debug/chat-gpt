@@ -1,0 +1,170 @@
+/* ====== Reset dasar ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ====== Header ====== */
+header {
+  background: #6a1b9a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Hero Section ====== */
+.hero {
+  background: linear-gradient(rgba(106, 27, 154, 0.7), rgba(233, 30, 99, 0.6)),
+              url('https://images.unsplash.com/photo-1600880292089-90e6a5e3b8b8') center/cover;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff4081;
+}
+
+/* ====== Tentang ====== */
+.tentang {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fce4ec;
+}
+
+.tentang h2 {
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+/* ====== Program ====== */
+.program {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.program-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #f3e5f5;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+/* ====== Galeri ====== */
+.galeri {
+  background: #fce4ec;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.galeri-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.foto {
+  width: 200px;
+}
+
+.foto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.foto p {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+/* ====== Kontak ====== */
+.kontak {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f3e5f5;
+}
+
+.kontak h2 {
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+/* ====== Footer ====== */
+footer {
+  background: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
